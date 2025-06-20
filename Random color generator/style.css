@@ -1,0 +1,89 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Roboto Condensed", sans-serif;
+}
+body{
+    transition:  0.36s ease-in-out;
+}
+.main{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 2%;
+    
+}
+.container{
+
+    width: 25rem;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+
+}
+#btn {
+
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  /* background: black;  */
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter:blur(10px);
+  color: black;
+  font-size: medium;  
+  border: 2px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+
+
+
+
+}
+
+
+#btn:hover{
+     
+    font-size: larger;
+     box-shadow: 0 8px 16px rgba(44, 55, 66, 0.66) ;
+}
+
+h2{
+    font-style: italic;
+    text-shadow:  0 8px 16px rgba(44, 55, 66, 0.5) ;;
+}
+
+#copy{
+    color: black;
+    background: grey;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-size: small;   
+    padding: 10px 22px; 
+    transition: box-shadow 0.3s ease;
+    cursor:pointer;
+    background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+
+
+
+}
+#copy:hover{
+    font-size: larger;
+    box-shadow: 0 8px 16px rgba(44, 55, 66, 0.66) ;
+} 
+  
